@@ -12,7 +12,7 @@ wget https://cdn.jsdelivr.net/gh/TildenJ/env/environment.yml
 conda env update --prefix /home/jitiandong/miniconda3 --file environment.yml  --prune
 pip install gpustat
 
-sudo apt install git
+sudo apt install -y git tmux
 git config --globa user.name TildenJ
 git config --globa user.email j@itiandong.com
 ```
