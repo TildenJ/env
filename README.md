@@ -10,5 +10,6 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 source ~/.bashrc
 wget https://cdn.jsdelivr.net/gh/TildenJ/env/environment.yml
 conda env update --prefix /home/jitiandong/miniconda3 --file environment.yml  --prune
+source ~/.bashrc
 pip install gpustat
 ```
