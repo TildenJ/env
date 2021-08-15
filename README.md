@@ -37,3 +37,7 @@ sudo apt install -y git tmux
 git config --globa user.name TildenJ
 git config --globa user.email j@itiandong.com
 ```
+
+```bash
+conda env create -f environment.yml
+```
