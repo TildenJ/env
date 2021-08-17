@@ -39,5 +39,11 @@ git config --globa user.email j@itiandong.com
 ```
 
 ```bash
+# centos
+yum install make automake gcc gcc-c++ kernel-devel
+
+#ubuntu
+apt install build-essential
+
 conda env create -f environment.yml
 ```
