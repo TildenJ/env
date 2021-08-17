@@ -39,6 +39,8 @@ git config --globa user.email j@itiandong.com
 ```
 
 ```bash
+sudo userdel -r jitiandong
+
 # centos
 yum install make automake gcc gcc-c++ kernel-devel
 
